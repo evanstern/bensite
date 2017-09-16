@@ -23,3 +23,9 @@ section.main-content .content-block {
     border-bottom: 1px solid #333;
 }
 
+#Add-Item {
+    width: 200px;
+    height: 50px;
+    font-size: 20pt;
+}
+

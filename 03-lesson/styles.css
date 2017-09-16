@@ -2,6 +2,10 @@ body {
     font-size: 18pt;
 }
 
+section.header {
+    background-color: blue;
+}
+
 section.header,
 section.main-content,
 section.footer {
