@@ -1,0 +1,75 @@
+body {
+    font-size: 34pt;
+}
+
+section.header,
+section.main-content,
+section.footer {
+    margin: 10px 20px;
+}
+
+section.header > h1 {
+    text-align: center;
+}
+
+section.header {
+    border-bottom: 1px solid #333;
+}
+
+section.main-content .content-block {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-bottom-radius: 8px;
+    border-bottom: 1px solid #333;
+}
+
+h3.list-header {
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+ul.todo-items {
+    list-style: none;
+    padding: 0 5px;
+    margin: 10px 0;
+    width: 1000px;
+}
+
+ul.todo-items > li {
+    padding: 10px 20px;
+}
+
+ul.todo-items > li:hover {
+    background-color: #eee;
+}
+
+ul.todo-items > li > .remove {
+    float: right;
+    cursor: pointer;
+    background-color: #999;
+    border-radius: 30px;
+    width: 57px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    padding-bottom: 7px;
+}
+
+ul.todo-items > li > .remove:hover {
+    background-color: #5e5e5e;
+}
+
+#Add-Item-Text {
+    display: block;
+    line-height: 40px;
+    font-size: 34px;
+    padding: 10px;
+    width: 500px;
+}
+
+#Add-Item-Button {
+    width: 200px;
+    height: 50px;
+    font-size: 20pt;
+}
+

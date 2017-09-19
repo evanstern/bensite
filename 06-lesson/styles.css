@@ -1,0 +1,25 @@
+body {
+    font-size: 34pt;
+}
+
+section.header,
+section.main-content,
+section.footer {
+    margin: 10px 20px;
+}
+
+section.header > h1 {
+    text-align: center;
+}
+
+section.header {
+    border-bottom: 1px solid #333;
+}
+
+section.main-content .content-block {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-bottom-radius: 8px;
+    border-bottom: 1px solid #333;
+}
+
